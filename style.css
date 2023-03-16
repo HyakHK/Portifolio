@@ -71,7 +71,7 @@ button{
     cursor: pointer;
 
 }
-.contato:hover{
+.contato:hover, .bnt:hover{
     background-color: rgb(16, 131, 131);
     color: white;
     transition: 0.5s;
@@ -84,12 +84,13 @@ button{
 
 .text h3{
     color: white;
-    font-size: 15px;
+    font-size: 40px;
 }
 
 .text h1{
     color: white;
     margin-top: 10px;
+    font-size: 55px;
 }
 
 .text span{
@@ -98,7 +99,7 @@ button{
 
 .text p{
     color: white;
-    font-size: 10px;
+    font-size: 30px;
     font-weight: 300;
     margin-top: 10px;
 }
@@ -110,4 +111,6 @@ button{
 }
 .bnt{
     margin-top: 10px;
+
 }
+
